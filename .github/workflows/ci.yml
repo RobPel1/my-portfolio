@@ -33,4 +33,4 @@ jobs:
       - name: Push image
         run: |
              docker login -u robpel1 -p ${{secrets.REGISTRY_PASS}}
-             docker push RobPel1/portfolio
+             docker push robpel1/portfolio
